@@ -28,7 +28,7 @@
                             <asp:ImageButton ID="ara" runat="server" src="search1.png" />
 
                         </li>
-                        <li class="menu_text"><a href="">Giriş / Kayıt Ol</a></li>
+                        <li class="menu_text"><a href="login.aspx">Giriş / Kayıt Ol</a></li>
 
 
                     </ul>
@@ -72,8 +72,8 @@
                     <ul>
                         <li class="menu-keban_text"><a href="kebanaspx.aspx">keban</a></li>
                         <li class="menu-keban_text"><a href="Palu.aspx"> Palu</a></li>
-                        <li class="menu-keban_text"><a href="Silivre.aspx">Silivre</a></li>
-                        
+                        <li class="menu-keban_text"><a href="Sivrice.aspx">Sivrice</a></li>
+                         <li class="menu-keban_text"><a href="Harbut.aspx">Harbut</a></li>
                     </ul>
 
                 </div>

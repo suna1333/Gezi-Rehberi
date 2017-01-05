@@ -16,9 +16,9 @@
             <div id="ust">
                 <div id="menu">
                     <ul>
-                        <li class="menu_text"><a href="anasayfa.aspx">Anasayfa</a></li>
+                        <li class="menu_text"><a href="anasayfaicerigi.aspx">Anasayfa</a></li>
                         <li class="menu_text"><a href="gezirehberi.aspx">Gezi Rehberi</a></li>
-                        <li class="menu_text"><a href="hakkimizda.aspx">Hakkımızda</a></li>
+                        <li class="menu_text"><a href="hakkımızda.aspx">Hakkımızda</a></li>
                         <li class="menu_text"><a href="iletisim.aspx">İletişim</a></li>
 
 
@@ -68,7 +68,7 @@
                 </div>
             </div>
             <div id="govde">
-                 
+                
             </div>
             <div id="alt">
 

@@ -70,9 +70,11 @@ namespace elazigezi
                 cmd.Parameters.AddWithValue("@yoneticiKullanici", kullaniciadi.Text);
                 cmd.Parameters.AddWithValue("@yoneticiSifre", parola.Text);
                 cmd.ExecuteNonQuery();
+                Response.Redirect("anasayfa.aspx");
+               
             }
             catch
-            {
+            { 
                 Response.Write("<script> alert('" + "Kullanıcı Adı veya Şifre yanlış." + "') </script>");
             }
             finally

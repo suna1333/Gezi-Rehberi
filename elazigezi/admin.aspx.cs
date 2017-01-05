@@ -11,7 +11,7 @@ namespace elazigezi
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Label1.Text = Session["ad"].ToString();
+         Label1.Text = Session["ad"].ToString();
             Label2.Text = Session["soyadi"].ToString();
         }
     }

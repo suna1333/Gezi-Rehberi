@@ -57,9 +57,38 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="anasayfaicerigi.aspx" />
     <Content Include="engine1\ws-ctrl-convex.eot" />
     <Content Include="engine1\ws-ctrl-convex.ttf" />
     <Content Include="engine1\ws-ctrl-convex.woff" />
+    <Content Include="hakkımızda.aspx" />
+    <Content Include="Harbut.aspx" />
+    <Content Include="harbut\data1\images\46810,slaytresmi1siradakikopyajpg.png" />
+    <Content Include="harbut\data1\images\harput.jpg" />
+    <Content Include="harbut\data1\images\harputgirisi.jpg" />
+    <Content Include="harbut\data1\images\images.jpg" />
+    <Content Include="harbut\data1\images\indir.jpg" />
+    <Content Include="harbut\data1\tooltips\46810,slaytresmi1siradakikopyajpg.png" />
+    <Content Include="harbut\data1\tooltips\harput.jpg" />
+    <Content Include="harbut\data1\tooltips\harputgirisi.jpg" />
+    <Content Include="harbut\data1\tooltips\images.jpg" />
+    <Content Include="harbut\data1\tooltips\indir.jpg" />
+    <Content Include="harbut\engine1\jquery.js" />
+    <Content Include="harbut\engine1\script.js" />
+    <Content Include="harbut\engine1\style.css" />
+    <Content Include="harbut\engine1\style.mod.css" />
+    <Content Include="harbut\engine1\wowslider.js" />
+    <Content Include="harbut\engine1\wowslider.mod.js" />
+    <Content Include="harbut\engine1\ws-ctrl-convex.svg" />
+    <Content Include="palu\engine1\ws-ctrl-convex.eot" />
+    <Content Include="palu\engine1\ws-ctrl-convex.ttf" />
+    <Content Include="palu\engine1\ws-ctrl-convex.woff" />
+    <Content Include="Sivrice\engine1\ws-ctrl-convex.eot" />
+    <Content Include="Sivrice\engine1\ws-ctrl-convex.ttf" />
+    <Content Include="Sivrice\engine1\ws-ctrl-convex.woff" />
+    <Content Include="harbut\engine1\ws-ctrl-convex.eot" />
+    <Content Include="harbut\engine1\ws-ctrl-convex.ttf" />
+    <Content Include="harbut\engine1\ws-ctrl-convex.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -91,7 +120,43 @@
     <Content Include="kebanaspx.aspx" />
     <Content Include="login.aspx" />
     <Content Include="Palu.aspx" />
-    <Content Include="silivre.aspx" />
+    <Content Include="palu\data1\images\7.jpg" />
+    <Content Include="palu\data1\images\arcakhangiehirde.jpg" />
+    <Content Include="palu\data1\images\images.jpg" />
+    <Content Include="palu\data1\images\indir_1.jpg" />
+    <Content Include="palu\data1\tooltips\7.jpg" />
+    <Content Include="palu\data1\tooltips\arcakhangiehirde.jpg" />
+    <Content Include="palu\data1\tooltips\images.jpg" />
+    <Content Include="palu\data1\tooltips\indir_1.jpg" />
+    <Content Include="palu\engine1\jquery.js" />
+    <Content Include="palu\engine1\script.js" />
+    <Content Include="palu\engine1\style.css" />
+    <Content Include="palu\engine1\style.mod.css" />
+    <Content Include="palu\engine1\wowslider.js" />
+    <Content Include="palu\engine1\wowslider.mod.js" />
+    <Content Include="palu\engine1\ws-ctrl-convex.svg" />
+    <Content Include="Sivrice.aspx" />
+    <Content Include="Sivrice\data1\images\images.jpg" />
+    <Content Include="Sivrice\data1\images\indir.jpg" />
+    <Content Include="Sivrice\data1\images\sivrice.jpg" />
+    <Content Include="Sivrice\data1\images\sivrice_gol.jpg" />
+    <Content Include="Sivrice\data1\tooltips\images.jpg" />
+    <Content Include="Sivrice\data1\tooltips\indir.jpg" />
+    <Content Include="Sivrice\data1\tooltips\sivrice.jpg" />
+    <Content Include="Sivrice\data1\tooltips\sivrice_gol.jpg" />
+    <Content Include="Sivrice\engine1\jquery.js" />
+    <Content Include="Sivrice\engine1\script.js" />
+    <Content Include="Sivrice\engine1\style.css" />
+    <Content Include="Sivrice\engine1\style.mod.css" />
+    <Content Include="Sivrice\engine1\wowslider.js" />
+    <Content Include="Sivrice\engine1\wowslider.mod.js" />
+    <Content Include="Sivrice\engine1\ws-ctrl-convex.svg" />
+    <Content Include="slider\data1\images\harput.jpg" />
+    <Content Include="slider\data1\images\hbtn.jpg" />
+    <Content Include="slider\data1\images\hr.jpg" />
+    <Content Include="slider\data1\images\hrtn.jpg" />
+    <Content Include="slider\data1\tooltips\harput.jpg" />
+    <Content Include="veriyicek.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +174,13 @@
     <Compile Include="anasayfa.aspx.designer.cs">
       <DependentUpon>anasayfa.aspx</DependentUpon>
     </Compile>
+    <Compile Include="anasayfaicerigi.aspx.cs">
+      <DependentUpon>anasayfaicerigi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="anasayfaicerigi.aspx.designer.cs">
+      <DependentUpon>anasayfaicerigi.aspx</DependentUpon>
+    </Compile>
     <Compile Include="gezirehberi.aspx.cs">
       <DependentUpon>gezirehberi.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -117,6 +189,20 @@
       <DependentUpon>gezirehberi.aspx</DependentUpon>
     </Compile>
     <Compile Include="guvenlik.cs" />
+    <Compile Include="hakkımızda.aspx.cs">
+      <DependentUpon>hakkımızda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hakkımızda.aspx.designer.cs">
+      <DependentUpon>hakkımızda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Harbut.aspx.cs">
+      <DependentUpon>Harbut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Harbut.aspx.designer.cs">
+      <DependentUpon>Harbut.aspx</DependentUpon>
+    </Compile>
     <Compile Include="iletisim.aspx.cs">
       <DependentUpon>iletisim.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -147,12 +233,19 @@
       <DependentUpon>Palu.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="silivre.aspx.cs">
-      <DependentUpon>silivre.aspx</DependentUpon>
+    <Compile Include="Sivrice.aspx.cs">
+      <DependentUpon>Sivrice.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="silivre.aspx.designer.cs">
-      <DependentUpon>silivre.aspx</DependentUpon>
+    <Compile Include="Sivrice.aspx.designer.cs">
+      <DependentUpon>Sivrice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="veriyicek.aspx.cs">
+      <DependentUpon>veriyicek.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="veriyicek.aspx.designer.cs">
+      <DependentUpon>veriyicek.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

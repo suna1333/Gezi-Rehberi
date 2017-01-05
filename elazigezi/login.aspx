@@ -14,7 +14,7 @@
                     <ul>
                         <li class="menu_text"><a href="anasayfa.aspx">Anasayfa</a></li>
                         <li class="menu_text"><a href="gezirehberi.aspx">Gezi Rehberi</a></li>
-                        <li class="menu_text"><a href="hakkimizda.aspx">Hakkımızda</a></li>
+                        <li class="menu_text"><a href="hakkımızda.aspx",>Hakkımızda</a></li>
                         <li class="menu_text"><a href="iletisim.aspx">İletişim</a></li>
 
 
@@ -33,7 +33,7 @@
 </div>
             <div id="govde">
  <div>
-            <table class="login-sol">
+           &nbsp;&nbsp;&nbsp; <table class="login-sol">
                 <tr >
                     <td>Kullanıcı Adı:</td>
                     <td>
@@ -49,7 +49,7 @@
                         <asp:Button ID="btn_giris" runat="server" Text="Giriş" OnClick="btn_giris_Click" /></td>
                 </tr>
             </table>
-            <table class="login-sag">
+         &nbsp;&nbsp;&nbsp;   <table class="login-sag">
 
                 <tr >
                     <td>ad:</td>
@@ -62,8 +62,8 @@
                         <asp:TextBox ID="soyadi" runat="server" /></td>
                 </tr>
                 <tr>
-                    <td>Kullanıcı Adı:</td>
-                    <td>
+                    <td style="margin-left:15px">Kullanıcı Adı:</td>
+                    <td >
                         <asp:TextBox ID="kullaniciadi" runat="server" /></td>
                 </tr>
                 <tr>
