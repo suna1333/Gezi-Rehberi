@@ -1,0 +1,6 @@
+c:\users\suna oğur\documents\visual studio 2013\Projects\elazigezi\elazigezi\bin\elazigezi.dll.config
+c:\users\suna oğur\documents\visual studio 2013\Projects\elazigezi\elazigezi\bin\elazigezi.dll
+c:\users\suna oğur\documents\visual studio 2013\Projects\elazigezi\elazigezi\bin\elazigezi.pdb
+c:\users\suna oğur\documents\visual studio 2013\Projects\elazigezi\elazigezi\obj\Debug\elazigezi.csprojResolveAssemblyReference.cache
+c:\users\suna oğur\documents\visual studio 2013\Projects\elazigezi\elazigezi\obj\Debug\elazigezi.dll
+c:\users\suna oğur\documents\visual studio 2013\Projects\elazigezi\elazigezi\obj\Debug\elazigezi.pdb
